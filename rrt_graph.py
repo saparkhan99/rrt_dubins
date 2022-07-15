@@ -4,6 +4,7 @@ import numpy as np
 import pygame
 import sys
 import time
+import cv2
 
 def distance(first, second):
 	(x1,y1) = first
