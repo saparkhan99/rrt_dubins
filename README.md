@@ -43,3 +43,19 @@ The image for learning differs from the image before. It is done for the model t
 
 # paths_many.py 
 the same as generate_paths but creates multiple paths, compares their distance and chooses the smallest one. 
+
+# model.py
+
+The code that takes the dataset, trains the model, generates paths using the trained model, and compares it with the test data.
+
+The model losses:
+![photo_2023-04-11_22-12-45](https://user-images.githubusercontent.com/47181212/231225424-af6738bf-bfdc-4364-b24d-968dc7285ac9.jpg)
+
+The comparisons: 
+![photo_2023-04-11_22-12-49](https://user-images.githubusercontent.com/47181212/231224887-4383dc7e-5612-4cf8-8ab7-6f4f8e03775b.jpg)
+
+![photo_2023-04-11_22-12-40](https://user-images.githubusercontent.com/47181212/231224977-fddd57e2-6932-4927-9533-2422df50f676.jpg)
+
+Yellow circles represent the nodes generated from the trained network.
+
+As we can see, although the losses are good (with a slight overfitting), the model do not generate an obstacle free path when connecting the dots
