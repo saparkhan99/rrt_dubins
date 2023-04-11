@@ -62,7 +62,7 @@ As we can see, although the losses are good (with a slight overfitting), the mod
 
 # Running the scripts
 
-In order to run the code, you can create a conda environment by running the following code:
+In order to be able to run the scripts, you can create a conda environment by running the following code:
   conda create --name <env> --file requirements.txt
   
 You can also do it by just having the latest version of python and installing the following libraries with the latest versions:
