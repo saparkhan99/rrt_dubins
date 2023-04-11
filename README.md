@@ -42,4 +42,4 @@ The image for learning differs from the image before. It is done for the model t
 
 
 # paths_many.py 
-Creates multiple paths, compares their distance and chooses the smallest one. 
+the same as generate_paths but creates multiple paths, compares their distance and chooses the smallest one. 
