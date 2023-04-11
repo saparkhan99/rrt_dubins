@@ -30,7 +30,16 @@ The same as above but with a car going along the generated red path.
 
 # generate_path.py
 
-Generate paths for the training of neural network.
+The code that generates ground true dataset for the neural network to learn. This script generates a dataset only with usual RRT* paths without dubins motion.
+![photo_2023-04-11_22-04-16](https://user-images.githubusercontent.com/47181212/231222454-6582472e-b9ab-441d-af33-35816acac147.jpg)
+
+Explanation:
+The image for learning differs from the image before. It is done for the model to better learn the fetures.
+1) Blue circle is the start position.
+2) Green circle is the goal position
+3) White square are the obstacles
+4) Red circle are the nodes for of the generarted paths
+
 
 # paths_many.py 
 Creates multiple paths, compares their distance and chooses the smallest one. 
