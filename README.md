@@ -28,5 +28,9 @@ Explanation:
 
 The same as above but with a car going along the generated red path.
 
+# generate_path.py
+
+Generate paths for the training of neural network.
+
 # paths_many.py 
 Creates multiple paths, compares their distance and chooses the snallest one. 
