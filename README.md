@@ -22,5 +22,11 @@ Explanation:
 # path_with_robot.py
 Creates the path and show the movement of the animated car along the generated path.
 
+![image](https://user-images.githubusercontent.com/47181212/231217619-ffbc47ec-913b-405d-af69-6584810b7448.png)
+
+Explanation:
+
+The same as above but with a car going along the generated red path.
+
 # paths_many.py 
 Creates multiple paths, compares their distance and chooses the snallest one. 
