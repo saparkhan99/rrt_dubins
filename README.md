@@ -58,4 +58,15 @@ The comparisons:
 
 Yellow circles represent the nodes generated from the trained network.
 
-As we can see, although the losses are good (with a slight overfitting), the model do not generate an obstacle free path when connecting the dots
+As we can see, although the losses are good (with a slight overfitting), the model do not generate an obstacle free path when connecting the dots.
+
+# requirement 
+
+You can create a conda environment by running the following code:
+conda create --name <env> --file requirements.txt
+  
+You can also do it by just having the latest version of python and installing the following libraries with the latest versions:
+  1. pip install torchvision
+  2. pip install opencv-python
+  3. pip install pygame
+  4. pip install pandas
